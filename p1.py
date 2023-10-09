@@ -1,0 +1,7 @@
+print("Hello ! My Name is Swahari Sasi Chandana.")
+print("My father name is Swahari Nagesh.")
+print("My mother name is Swahari Swarnalatha.")
+print("I am pursuing graduation in the stream of BCA in Aditya Degree College.")
+print("My hobbies are reading books and playing games.")
+print("My favourite color is Blue.")
+print("My goal is to beacome a software developer.")
