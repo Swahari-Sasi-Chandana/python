@@ -1,7 +1,10 @@
-a = int( input("Please enter value for a: "))  
-b = int( input("Please enter value for b: "))
-t = a
-a = b  
-b = t  
-print ("The Value of a after swapping: ", a)  
-print ("The Value of b after swapping: ", b)
+m=[]
+s=0
+n=int(input())
+for i in range(n):
+    x=int(input("Enter number:"))
+    m.append(x)
+for i in range(1, n):
+    if m[i]< m[i-1]:
+        min=m[i]
+print(m[i])
