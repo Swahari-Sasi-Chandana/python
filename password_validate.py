@@ -1,4 +1,3 @@
-
 n=input()
 s=len(n)
 a=0
