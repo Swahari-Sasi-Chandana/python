@@ -1,4 +1,4 @@
-#swap to find the password is valid or invalid
+
 n=input()
 s=len(n)
 a=0
