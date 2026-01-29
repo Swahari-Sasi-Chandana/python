@@ -1,3 +1,4 @@
+#program to print difference btw maximum element and minimum element
 m=[]
 s=0
 n=int(input())
@@ -12,3 +13,4 @@ for i in range(1, n):
         max=m[i]
 s=max-min
 print(s)
+
