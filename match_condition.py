@@ -1,0 +1,11 @@
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+c=int(input("Preform a Operation 1.Adittion 2.Subtraction 3.Multiplication 4.Division 5.Floor Division 6.Exponent"))
+match(c):
+    case 1: print("Addition :", a+b)
+    case 2: print("Subtraction :", a-b)
+    case 3: print("Multiplication :", a*b)
+    case 4: print("Division :",a/b)
+    case 5: print("Floor Division :", a//b)
+    case 6: print("Exponent :",a**b)
+    case _: print("Enter in above operations.")
