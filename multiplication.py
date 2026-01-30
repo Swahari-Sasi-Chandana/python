@@ -25,3 +25,44 @@ for i in range(0,6):
         3 3 6 9 12
         4 4 8 12 16
 '''
+
+
+a=int(input())
+for i in range(1,11):                                 #printing a table
+    print(a ,"*", i," = ", a*i)
+
+
+
+
+for i in range(1,101):
+    if(i%10==0):  
+        print(i)                                     #printing 1 to 100 numbers each row 10
+    else:
+        print(i,end="     ")
+
+
+
+
+for i in range(1,11):
+    if(i==5):
+        continue                                  # printing numbers 1 to 10 except 5
+    else:
+        print(i)                        
+
+
+a=1
+while(a<=10):
+    if(a==5):
+        a+=1                                       # printing numbers 1 to 10 upto 5
+        break                                     
+    print(a)
+    a+=1
+
+
+for j in range(1,11):
+    
+    for i in range(1,11):                          # printing 1 to 10 tables
+        print(i,"*",j,"=",i*j,end=" ")           
+    print()
+
+
