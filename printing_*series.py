@@ -22,6 +22,17 @@ for i in range(5):
    * * * *
 '''
 
+a=input()
+for i in range(1,len(a)+1):
+    print(" ".join(a[:i]))
+
+'''
+s
+s a
+s a s
+s a s i
+'''
+
 n=int(input())
 for i in range(1,n+1):
     for j in range(1,i+1):
@@ -49,9 +60,6 @@ for i in range(1, n + 1):
 *********
 '''
 
-
-
-
 for i in range(1,4):
     for j in range(1,i+1):
         print("*",end="  ")
@@ -60,9 +68,6 @@ for i in range(1,4):
        * 
        * *
        * * *
-
-
-
 '''
 
 for i in range(4,0,-1):
@@ -77,8 +82,6 @@ for i in range(4,0,-1):
 
 '''
 
-  
-
 for i in range(1,4):
     for j in range(1,i+1):
         print(j,end="  ")
@@ -90,10 +93,6 @@ for i in range(1,4):
    1 2 3
 '''    
    
-
- 
- 
-
 for i in range(1,4):
     for j in range(1,i+1):
         print(i,end="  ")
@@ -103,3 +102,18 @@ for i in range(1,4):
   2 2
   3 3 3
 '''
+
+a=input()
+for i in range(len(a)):
+    for j in range(i+1):
+        print(a[i-j],end=" ")
+    print()
+
+'''
+      s
+    s a
+  s a s
+i s a s
+
+'''
+
